@@ -1,2 +1,2 @@
 # To-Do-List-Application
-This is my To Do List Application building from scratch
+This is Long Chen's To Do List Application building from scratch
