@@ -31,6 +31,8 @@ function addTodo(event){
     const newCompleteBtn = document.createElement("button");
     // add class name
     newCompleteBtn.classList.add("complete-button");
+    // set innerHTML with icon
+    newCompleteBtn.innerHTML = '<i class="fas fa-check"></i>';
     // append btn to div
     newDiv.appendChild(newCompleteBtn);
 
@@ -38,6 +40,8 @@ function addTodo(event){
     const newDeleteBtn = document.createElement("button");
     // add class name
     newDeleteBtn.classList.add("delete-button");
+    // set innerHTML with icon
+    newDeleteBtn.innerHTML = '<i class="fas fa-trash"></i>';
     newDiv.appendChild(newDeleteBtn);
 
     // finally append div child to ul parent
